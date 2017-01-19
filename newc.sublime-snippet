@@ -9,7 +9,7 @@ class ${1:Class_name} extends CI_Controller
 		parent::__construct();
 	}
 
-	public ${2:new_function}(${3:var})
+	public function ${2:new_function}(${3:var})
 	{
 		${4:code...}
 	}  
