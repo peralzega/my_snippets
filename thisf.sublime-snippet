@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-\$this->input->post('${1:var}')${2:;}$3
+\$this->${1:f_name}();$2
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>inpos</tabTrigger>
+	<tabTrigger>thisf</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

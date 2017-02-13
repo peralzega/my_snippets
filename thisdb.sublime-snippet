@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-\$this->input->post('${1:var}')${2:;}$3
+\$this->db->${1:query}($2);$3
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>inpos</tabTrigger>
+	<tabTrigger>thisdb</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
